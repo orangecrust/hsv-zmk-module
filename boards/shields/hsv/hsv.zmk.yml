@@ -1,0 +1,13 @@
+file_format: "1"
+id: hsv
+name: hsv
+type: shield
+url: https://github.com/wannabecoffeenerd/HillSideView/
+requires: [pro_micro]
+features:
+  - keys
+  - display
+  - pointer
+siblings:
+  - hsv_left
+  - hsv_right
