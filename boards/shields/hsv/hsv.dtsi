@@ -125,7 +125,7 @@ nice_view_spi: &spi1 {
         };
     };
 
-    glide_point_listener: glidepoint_listener {
+    glidepoint_listener: glidepoint_listener {
         compatible = "zmk,input-listener";
         status = "disabled";
         device = <&glidepoint_split>;
