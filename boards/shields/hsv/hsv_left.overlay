@@ -32,5 +32,5 @@
 
 // enable listener, which is disabled by default in hsv.dtsi
 &glidepoint_listener {
-    status = "okay"
+    status = "okay";
 };
