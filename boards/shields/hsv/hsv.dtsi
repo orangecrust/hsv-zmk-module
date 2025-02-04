@@ -114,3 +114,21 @@ nice_view_spi: &spi1 {
   };
 };
 
+/{
+    split_inputs {
+        #address-cells = <1>;
+        #size-cells = <0>;
+
+        glidepoint_split: glidepoint_split@0 {
+            compatible = "zmk,input-split";
+            reg = <0>;
+        };
+    };
+
+    glide_point_listener: glidepoint_listener {
+        compatible = "zmk,input-listener",
+        status = "disabled",
+        device = <&glidepoint_split>;
+    };
+};
+
